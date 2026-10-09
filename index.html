@@ -9,7 +9,7 @@
 <p id="msg" style="padding:24px;color:#5a6a7e">불러오는 중…</p>
 <script>
   // 화면은 구글 시트에 연결된 웹앱에서 받아 와요. 구글 로그인과 상관없이 열려요.
-  var API = 'https://script.google.com/macros/s/AKfycbxlDjUH-MJo5NhfOqTgTVD5QLYQAgbCBZKzrjoj-F3bocFXvs0kcE9KZyCpnugb_swZfQ/exec';
+   var API = 'https://script.google.com/macros/s/AKfycbw42_-Jf4C8bOTp2rjnZPmiWf86PzBNGDuC0sfEwGIwPq-XYfofHEwZuBWJaADWo-NtKw/exec';
   fetch(API + '?ui=1&api=' + encodeURIComponent(API), { credentials: 'omit' })
     .then(function (r) { return r.text(); })
     .then(function (h) {
